@@ -8,7 +8,6 @@
     <%= render 'tables/burst_table'%>
     <%= render 'tables/your_bets'%>
   </div>
-
   <script>
 
       document.addEventListener("DOMContentLoaded", () => {
@@ -23,7 +22,7 @@
       
 
       const placeBetButton = document.getElementById('placeBetButton');
-       if (placeBetButton) {
+       if (placeBetButton) {        
       placeBetButton.addEventListener('click', function () {
       // Retrieve the betid from the DOM element
       const betidElement =document.getElementById('betid')
