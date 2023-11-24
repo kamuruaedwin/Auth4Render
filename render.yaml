@@ -1,12 +1,12 @@
 databases:
   - name: postgres
     ipAllowList: []
-    databaseName: my_app_render
-    user: my_app_render
+    databaseName: PesaFast
+    user: kamurua
 
 services:
   - type: web
-    name: my_app_render
+    name: PesaFast
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
