@@ -1,12 +1,12 @@
 databases:
   - name: pesafast
     ipAllowList: []
-    databaseName: PesaFast
+    databaseName: pesafast
     user: pesafast
 
 services:
   - type: web
-    name: PesaFast
+    name: pesafast
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
